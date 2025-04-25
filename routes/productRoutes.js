@@ -28,6 +28,6 @@ router .get('/',async(req,res)=>{
         res.status(200).send(product)
     } catch (error) {
         res.status(500).send({message:"Internal server error"})
-    }
+    }//TEST
 })
 module.exports=router;
